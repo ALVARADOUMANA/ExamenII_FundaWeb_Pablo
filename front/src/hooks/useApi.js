@@ -1,7 +1,8 @@
+//front\src\hooks\useApi.js
 import axios from 'axios';
 
 // URL base para la API
-const API_URL = 'http://localhost:5199';
+const API_URL = 'http://localhost:5001';
 
 // Configuración base de axios
 const baseConfig = {
@@ -14,14 +15,11 @@ const baseConfig = {
 // Instancia de axios
 const api = axios.create(baseConfig);
 
-// -------- Funciones relacionadas con WeatherForecast --------
-export const obtenerClima = () => api.get('/WeatherForecast');
-
-export const obtenerEmpleados = () => api.get('/api/Empleado');
-export const obtenerEmpleadosPorId = (id) => api.get(`/api/Empleado/${id}`);
-export const crearEmpleado = (data) => api.post('/api/Empleado', data);
-export const actualizarEmpleado = (data) => api.put(`/api/Empleado/`, data);
-export const eliminarEmpleado = (id) => api.delete(`/api/Empleado/${id}`);
+export const obtenerCultures = () => api.get('/api/Culture');
+export const obtenerCulturePorId = (id) => api.get(`/api/Culture/${id}`);
+export const crearCulture = (data) => api.post('/api/Culture', data);
+export const actualizarCulture = (data) => api.put(`/api/Culture/`, data);
+export const eliminarCulture = (id) => api.delete(`/api/Culture/${id}`);
 
 // -------- Agregar más rutas según sea necesario --------
 

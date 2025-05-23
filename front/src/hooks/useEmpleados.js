@@ -1,11 +1,11 @@
-// hooks/useEmpleados.js
 import { useState, useEffect } from 'react';
+import { showToast } from '../components/ToastNotification';
 import {
     obtenerEmpleados,
     obtenerEmpleadosPorId,
     crearEmpleado,
     actualizarEmpleado,
-    eliminarEmpleado
+    eliminarEmpleado 
 } from '../hooks/useApi';
 
 const useEmpleados = () => {
@@ -13,25 +13,30 @@ const useEmpleados = () => {
     const [empleadoSeleccionado, setEmpleadoSeleccionado] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    // Mantenemos la notificación para compatibilidad, pero se usará principalmente para toasts
     const [notification, setNotification] = useState({ show: false, message: '', type: '' });
-
+    
     useEffect(() => {
+        console.log('1');
         fetchEmpleados();
     }, []);
-
+    
     const fetchEmpleados = async () => {
+        console.log('2');
         try {
             setLoading(true);
             const response = await obtenerEmpleados();
             setEmpleados(response.data);
             setError(null);
         } catch (err) {
-            setError('No se pudieron cargar los datos de empleados');
+            const errorMsg = 'No se pudieron cargar los datos de empleados';
+            setError(errorMsg);
+            showNotification(errorMsg, 'error');
         } finally {
             setLoading(false);
         }
     };
-
+    
     const fetchEmpleadoDetalle = async (id) => {
         try {
             const response = await obtenerEmpleadosPorId(id);
@@ -42,8 +47,9 @@ const useEmpleados = () => {
             return null;
         }
     };
-
+    
     const createEmpleado = async (data) => {
+        console.log('3');
         try {
             await crearEmpleado(data);
             showNotification('Empleado creado exitosamente', 'success');
@@ -54,10 +60,10 @@ const useEmpleados = () => {
             return false;
         }
     };
-
+    
     const updateEmpleado = async (data) => {
+        console.log('4');
         try {
-
             await actualizarEmpleado(data);
             showNotification('Empleado actualizado exitosamente', 'success');
             await fetchEmpleados();
@@ -67,8 +73,9 @@ const useEmpleados = () => {
             return false;
         }
     };
-
+    
     const deleteEmpleado = async (id) => {
+        console.log('5');
         try {
             await eliminarEmpleado(id);
             showNotification('Empleado eliminado exitosamente', 'success');
@@ -79,14 +86,32 @@ const useEmpleados = () => {
             return false;
         }
     };
-
+    
     const showNotification = (message, type) => {
+        // Actualizar el estado local para componentes que aún lo usen
         setNotification({ show: true, message, type });
+        
+        // Usar el sistema de toast personalizado
+        switch (type) {
+            case 'success':
+                showToast.success(message);
+                break;
+            case 'error':
+                showToast.error(message);
+                break;
+            case 'warning':
+                showToast.warning(message);
+                break;
+            default:
+                showToast.info(message);
+        }
+        
+        // Limpiar la notificación local después de un tiempo
         setTimeout(() => {
             setNotification({ show: false, message: '', type: '' });
         }, 3000);
     };
-
+    
     const formatSalario = (salario) => {
         return new Intl.NumberFormat('es-MX', {
             style: 'currency',
@@ -94,14 +119,13 @@ const useEmpleados = () => {
             minimumFractionDigits: 0
         }).format(salario);
     };
-
+    
     return {
         empleados,
         empleadoSeleccionado,
         loading,
         error,
         notification,
-        fetchEmpleados,
         fetchEmpleadoDetalle,
         createEmpleado,
         updateEmpleado,
