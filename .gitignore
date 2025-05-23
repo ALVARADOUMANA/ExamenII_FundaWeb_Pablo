@@ -1,2 +1,42 @@
-# Ignora node_modules pero no la carpeta front
+# === GLOBAL ===
+# Evita archivos temporales comunes
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === REACT (front) ===
 /front/node_modules/
+/front/build/
+/front/dist/
+/front/.env
+/front/.env.*.local
+/front/.parcel-cache
+/front/.next
+/front/.turbo
+/front/.vite
+/front/.eslintcache
+
+# === .NET (Backend) ===
+/Backend/bin/
+/Backend/obj/
+/Backend/.vs/
+/Backend/*.user
+/Backend/*.suo
+/Backend/*.userosscache
+/Backend/*.sln.docstates
+/Backend/TestResults/
+/Backend/.vscode/
+*.dbmdl
+
+# === GIT ===
+# Evita carpetas de sistema o errores de fusión
+.idea/
+*.orig
+
+# === OPCIONAL ===
+# Ignora salidas generales si las usas
+/dist/
+/out/
+/coverage/
