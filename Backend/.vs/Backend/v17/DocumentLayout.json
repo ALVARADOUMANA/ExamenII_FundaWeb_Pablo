@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|solutionrelative:entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\entities\\migrations\\20250523203353_seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|solutionrelative:entities\\migrations\\20250523203353_seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\entities\\entities\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|solutionrelative:entities\\entities\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\entities\\entities\\prucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2E5ACE-0B83-4B7A-8D06-9362ACFA0C17}|Entities\\Entities.csproj|solutionrelative:entities\\entities\\prucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\services\\implementations\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\services\\implementations\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\implementation\\genericdalimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\implementation\\genericdalimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\implementation\\unidaddetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\implementation\\unidaddetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\interfaces\\iunidaddetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iunidaddetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\interfaces\\igenericdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\igenericdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0B0FC74F-C90B-4542-B928-D87DB5E128C8}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|c:\\users\\usuario\\documents\\github\\examenii_fundaweb_pablo\\backend\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1567069-4677-4100-A57D-02110551E680}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +82,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Backend\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.Development.json",
-              "RelativeToolTip": "Backend\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-23T19:10:01.589Z",
+              "DocumentIndex": 3,
+              "Title": "20250523203353_Seguridad.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Migrations\\20250523203353_Seguridad.cs",
+              "RelativeDocumentMoniker": "Entities\\Migrations\\20250523203353_Seguridad.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Migrations\\20250523203353_Seguridad.cs",
+              "RelativeToolTip": "Entities\\Migrations\\20250523203353_Seguridad.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:33:53.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:23:09.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:23:00.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Implementations\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\Implementations\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Implementations\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "Backend\\Services\\Implementations\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:21:57.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PruContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Entities\\PruContext.cs",
+              "RelativeDocumentMoniker": "Entities\\Entities\\PruContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Entities\\PruContext.cs",
+              "RelativeToolTip": "Entities\\Entities\\PruContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:13:57.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Backend",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T20:13:31.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Entities\\AuthDBContext.cs",
+              "RelativeDocumentMoniker": "Entities\\Entities\\AuthDBContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Entities\\AuthDBContext.cs",
+              "RelativeToolTip": "Entities\\Entities\\AuthDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:45:39.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:45:24.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnidadDeTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Implementation\\UnidadDeTrabajo.cs",
+              "RelativeDocumentMoniker": "DAL\\Implementation\\UnidadDeTrabajo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Implementation\\UnidadDeTrabajo.cs",
+              "RelativeToolTip": "DAL\\Implementation\\UnidadDeTrabajo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:41:47.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-23T19:09:57.715Z",
               "EditorCaption": ""
@@ -57,27 +216,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:08:57.524Z",
+              "WhenOpened": "2025-05-23T20:23:10.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Class1.cs",
-              "RelativeDocumentMoniker": "Entities\\Class1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Entities\\Class1.cs",
-              "RelativeToolTip": "Entities\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\appsettings.Development.json",
+              "RelativeToolTip": "Backend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T19:10:01.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Implementations\\TokenService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\Implementations\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Implementations\\TokenService.cs",
+              "RelativeToolTip": "Backend\\Services\\Implementations\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:06:50.061Z",
+              "WhenOpened": "2025-05-23T20:24:46.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\Backend\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Backend\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:24:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnidadDeTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Interfaces\\IUnidadDeTrabajo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IUnidadDeTrabajo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Interfaces\\IUnidadDeTrabajo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IUnidadDeTrabajo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:41:28.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IGenericDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Interfaces\\IGenericDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IGenericDAL.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Interfaces\\IGenericDAL.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IGenericDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:41:07.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericDALImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Implementation\\GenericDALImpl.cs",
+              "RelativeDocumentMoniker": "DAL\\Implementation\\GenericDALImpl.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\Implementation\\GenericDALImpl.cs",
+              "RelativeToolTip": "DAL\\Implementation\\GenericDALImpl.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T19:40:54.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DAL",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\ExamenII_FundaWeb_Pablo\\Backend\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T19:39:02.127Z",
               "EditorCaption": ""
             }
           ]
