@@ -1,0 +1,2 @@
+# Ignora node_modules pero no la carpeta front
+/front/node_modules/
