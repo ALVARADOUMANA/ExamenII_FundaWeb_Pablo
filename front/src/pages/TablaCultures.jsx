@@ -1,3 +1,5 @@
+//front\src\pages\TablaCultures.jsx
+
 import React, { useState, useEffect } from 'react';
 import { Globe, Eye, Edit2, Trash2, AlertCircle, Search, Calendar, ArrowUp, ArrowDown, Plus } from 'react-feather';
 import {

@@ -1,17 +1,19 @@
-//front\src\components\ProtectedRoute.jsx
+// src/components/ProtectedRoute.jsx
 import React from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 import { isAuthenticated } from '../hooks/useAuth';
 
 const ProtectedRoute = ({ children }) => {
   const location = useLocation();
+  
+  // Verificar autenticación
   const authenticated = isAuthenticated();
-
+  
   if (!authenticated) {
-    // Redirigir al login guardando la ubicación actual
+    // Guardar la ubicación actual para redirigir después del login
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
-
+  
   return children;
 };
 

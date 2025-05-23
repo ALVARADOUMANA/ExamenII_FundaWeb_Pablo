@@ -1,4 +1,4 @@
-//front\src\components\Sidebar.jsx
+// src/components/Sidebar.jsx
 import React, { useState, useEffect } from 'react';
 import { 
   Nav, 
@@ -6,18 +6,21 @@ import {
   NavLink, 
   Button,
 } from 'reactstrap';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { 
   Home, 
   Menu,
   FileText,
   BookOpen,
-  ChevronLeft
+  ChevronLeft,
+  LogOut
 } from 'react-feather';
+import { logout } from '../hooks/useAuth';
 
 const Sidebar = ({ onToggle }) => {
   const [isOpen, setIsOpen] = useState(true);
   const location = useLocation();
+  const navigate = useNavigate();
   
   // Comunica el estado del sidebar al componente padre
   useEffect(() => {
@@ -30,10 +33,15 @@ const Sidebar = ({ onToggle }) => {
     setIsOpen(!isOpen);
   };
 
+  const handleLogout = () => {
+    logout();
+    navigate('/login', { replace: true });
+  };
+  
   const navItems = [
     { path: '/', icon: <Home size={18} />, label: 'Home' },
     { path: '/crear_culture', icon: <FileText size={18} />, label: 'Create Culture' },
-    { path: '/tabla_cultures', icon: <BookOpen  size={18} />, label: 'Table Culture' }
+    { path: '/tabla_cultures', icon: <BookOpen size={18} />, label: 'Table Culture' }
   ];
 
   return (
@@ -44,7 +52,7 @@ const Sidebar = ({ onToggle }) => {
            position: 'fixed',
            left: 0,
            top: 0,
-           width: isOpen ? '250px' : '80px', // Aumentado de 70px a 80px
+           width: isOpen ? '250px' : '80px',
            transition: 'width 0.3s',
            zIndex: 1030,
            boxShadow: '2px 0 5px rgba(0,0,0,0.2)'
@@ -76,7 +84,7 @@ const Sidebar = ({ onToggle }) => {
           onClick={toggleSidebar}
           style={{ 
             backgroundColor: 'transparent',
-            marginRight: isOpen ? '0' : '8px', // Añadimos margen derecho cuando está colapsado
+            marginRight: isOpen ? '0' : '8px',
             width: '24px',
             height: '24px',
             display: 'flex',
@@ -102,11 +110,17 @@ const Sidebar = ({ onToggle }) => {
                 backgroundColor: location.pathname === item.path ? 'rgba(255,255,255,0.2)' : 'transparent',
                 borderLeft: location.pathname === item.path ? '4px solid white' : 'none',
                 paddingLeft: location.pathname === item.path ? '10px' : '16px',
-                paddingRight: isOpen ? '24px' : '16px', // Aumentado padding derecho
+                paddingRight: isOpen ? '24px' : '16px',
                 transition: 'all 0.2s',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: isOpen ? 'flex-start' : 'center' // Centrar iconos cuando está colapsado
+                justifyContent: isOpen ? 'flex-start' : 'center',
+                textDecoration: 'none'
+              }}
+              onClick={(e) => {
+                // Forzar navegación
+                e.preventDefault();
+                navigate(item.path);
               }}
             >
               <div className={`d-flex align-items-center ${!isOpen ? 'justify-content-center w-100' : ''}`}>
@@ -117,6 +131,38 @@ const Sidebar = ({ onToggle }) => {
           </NavItem>
         ))}
       </Nav>
+
+      {/* Logout Button */}
+      <div className="position-absolute" style={{ bottom: isOpen ? '60px' : '20px', left: '0', right: '0' }}>
+        <Nav vertical>
+          <NavItem>
+            <NavLink 
+              className="text-white cursor-pointer"
+              style={{ 
+                paddingLeft: '16px',
+                paddingRight: isOpen ? '24px' : '16px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: isOpen ? 'flex-start' : 'center',
+                cursor: 'pointer',
+                transition: 'all 0.2s'
+              }}
+              onClick={handleLogout}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent';
+              }}
+            >
+              <div className={`d-flex align-items-center ${!isOpen ? 'justify-content-center w-100' : ''}`}>
+                <span className={isOpen ? 'me-3' : ''}><LogOut size={18} /></span>
+                {isOpen && <span>Cerrar Sesión</span>}
+              </div>
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </div>
       
       {/* Footer */}
       {isOpen && (
