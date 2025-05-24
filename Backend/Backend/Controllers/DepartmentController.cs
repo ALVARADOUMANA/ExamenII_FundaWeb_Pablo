@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class DepartmentController : ControllerBase
@@ -18,35 +18,31 @@ namespace Backend.Controllers
         {
             _departmentService = departmentService;
         }
-        // GET: api/<EmpleadoController>
+
         [HttpGet]
         public IEnumerable<DepartmentDTO> Get()
         {
             return _departmentService.GetDepartments();
         }
 
-        // GET api/<EmpleadoController>/
         [HttpGet("{id}")]
         public DepartmentDTO Get(int id)
         {
             return _departmentService.GetDepartmentById(id);
         }
 
-        // POST api/<EmpleadoController>
         [HttpPost]
         public void Post([FromBody] DepartmentDTO empleado)
         {
             _departmentService.AddDepartment(empleado);
         }
 
-        // PUT api/<EmpleadoController>/
         [HttpPut]
         public void Put([FromBody] DepartmentDTO empleado)
         {
             _departmentService.UpdateDepartment(empleado);
         }
 
-        // DELETE api/<EmpleadoController>/
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
