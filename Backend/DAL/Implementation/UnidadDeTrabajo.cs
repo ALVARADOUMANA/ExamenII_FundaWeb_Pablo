@@ -10,12 +10,14 @@ namespace DAL.Implementation
 {
     public class UnidadDeTrabajo : IUnidadDeTrabajo
     {
+        public IDepartmentDAL DepartmentDAL { get; set; }
 
-        PruContext context;
+        SchoolContext context;
 
-        public UnidadDeTrabajo(PruContext context)
+        public UnidadDeTrabajo(SchoolContext context, IDepartmentDAL departmentDAL)
         {
             this.context = context;
+            DepartmentDAL = departmentDAL;
         }
         public void Dispose()
         {

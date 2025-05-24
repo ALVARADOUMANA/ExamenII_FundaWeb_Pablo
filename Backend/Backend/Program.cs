@@ -41,7 +41,7 @@ builder.Logging.ClearProviders();
 
 #region DB
 
-builder.Services.AddDbContext<PruContext>(
+builder.Services.AddDbContext<SchoolContext>(
                                 options =>
                                 options.UseSqlServer(
                                     builder
@@ -109,6 +109,9 @@ builder.Services.AddAuthentication(options =>
 
 #region DI
 builder.Services.AddScoped<IUnidadDeTrabajo, UnidadDeTrabajo>();
+
+builder.Services.AddScoped<IDepartmentDAL, DepartmentDALImpl>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 builder.Services.AddScoped<ITokenService, TokenService>();
 #endregion

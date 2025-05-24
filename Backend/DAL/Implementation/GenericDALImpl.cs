@@ -11,10 +11,9 @@ namespace DAL.Implementation
     public class GenericDALImpl<T> : IGenericDAL<T> where T : class
     {
 
-        PruContext _context;
+        SchoolContext _context;
 
-
-        public GenericDALImpl(PruContext context)
+        public GenericDALImpl(SchoolContext context)
         {
             _context = context;
         }
