@@ -86,6 +86,13 @@ export const crearDepartment = (data) => api.post('/api/Department', data);
 export const actualizarDepartment = (data) => api.put('/api/Department', data);
 export const eliminarDepartment = (id) => api.delete(`/api/Department/${id}`);
 
+// APIs para Person
+export const obtenerPersons = () => api.get('/api/Person');
+export const obtenerPersonPorId = (id) => api.get(`/api/Person/${id}`);
+export const crearPerson = (data) => api.post('/api/Person', data);
+export const actualizarPerson = (data) => api.put('/api/Person', data);
+export const eliminarPerson = (id) => api.delete(`/api/Person/${id}`);
+
 // Función helper para verificar si el usuario está autenticado antes de hacer peticiones
 export const isUserAuthenticated = () => {
   const token = localStorage.getItem('token');

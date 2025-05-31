@@ -113,6 +113,9 @@ builder.Services.AddScoped<IUnidadDeTrabajo, UnidadDeTrabajo>();
 builder.Services.AddScoped<IDepartmentDAL, DepartmentDALImpl>();
 builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
+builder.Services.AddScoped<IPersonDAL, PersonDALImpl>();
+builder.Services.AddScoped<IPersonService, PersonService>();
+
 builder.Services.AddScoped<ITokenService, TokenService>();
 #endregion
 

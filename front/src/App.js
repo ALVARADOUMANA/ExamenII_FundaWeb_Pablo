@@ -5,9 +5,11 @@ import Sidebar from './components/Sidebar';
 import MyNavbar from './components/Navbar';
 import BreadcrumbContent from './components/BreadcrumbContent';
 import ProtectedRoute from './components/ProtectedRoute';
-import HomePage from './pages/HomePage';  
+import HomePage from './pages/HomePage';
 import NuevoDepartment from './pages/NuevoDepartment';
 import TablaDepartments from './pages/TablaDepartments';
+import NuevoPerson from './pages/NuevoPerson';
+import TablaPersons from './pages/TablaPersons';
 import Login from './pages/auth/Login';
 import SignUp from './pages/auth/SignUp';
 import { Container } from 'reactstrap';
@@ -30,7 +32,7 @@ const AppContent = () => {
         setAuthenticated(false);
       }
     };
-    
+
     // Solo verificar autenticación una vez al cargar la app
     if (authenticated === null) {
       checkAuth();
@@ -47,11 +49,11 @@ const AppContent = () => {
     if (authenticated === null) {
       return <LoadingScreen />;
     }
-    
+
     if (authenticated) {
       return <Navigate to="/" replace />;
     }
-    
+
     return children;
   };
 
@@ -59,11 +61,11 @@ const AppContent = () => {
   const AuthenticatedLayout = ({ children }) => (
     <div className="d-flex">
       <Sidebar onToggle={handleSidebarToggle} />
-      <div className="content-wrapper" style={{ 
+      <div className="content-wrapper" style={{
         marginLeft: sidebarExpanded ? '250px' : '80px',
         width: `calc(100% - ${sidebarExpanded ? '250px' : '80px'})`,
         transition: 'margin-left 0.3s, width 0.3s',
-        minHeight: '100vh' 
+        minHeight: '100vh'
       }}>
         <MyNavbar />
         <Container fluid className="p-4">
@@ -103,69 +105,86 @@ const AppContent = () => {
   return (
     <Routes>
       {/* Rutas públicas */}
-      <Route 
-        path="/login" 
+      <Route
+        path="/login"
         element={
           <PublicRoute>
             <Login />
           </PublicRoute>
-        } 
+        }
       />
-      <Route 
-        path="/signup" 
+      <Route
+        path="/signup"
         element={
           <PublicRoute>
             <SignUp />
           </PublicRoute>
-        } 
+        }
       />
-      
-      {/* Rutas protegidas - Sin keys para evitar re-renderizado innecesario */}
-      <Route 
-        path="/" 
+
+      <Route
+        path="/"
         element={
           <ProtectedRouteWithLayout>
             <HomePage />
           </ProtectedRouteWithLayout>
-        } 
+        }
       />
-      
-      <Route 
-        path="/crear_department" 
+
+      <Route
+        path="/crear_department"
         element={
           <ProtectedRouteWithLayout>
             <NuevoDepartment />
           </ProtectedRouteWithLayout>
-        } 
+        }
       />
-      
-      <Route 
-        path="/tabla_departments" 
+
+      <Route
+        path="/tabla_departments"
         element={
           <ProtectedRouteWithLayout>
             <TablaDepartments />
           </ProtectedRouteWithLayout>
-        } 
+        }
       />
-      
-      {/* Ruta para editar culture */}
-      <Route 
-        path="/editar_culture/:id" 
+
+      <Route
+        path="/crear_person"
+        element={
+          <ProtectedRouteWithLayout>
+            <NuevoPerson />
+          </ProtectedRouteWithLayout>
+        }
+      />
+
+      <Route
+        path="/tabla_persons"
+        element={
+          <ProtectedRouteWithLayout>
+            <TablaPersons />
+          </ProtectedRouteWithLayout>
+        }
+      />
+
+      {/* Ruta para editar culture
+      <Route
+        path="/editar_culture/:id"
         element={
           <ProtectedRouteWithLayout>
             <NuevoDepartment />
           </ProtectedRouteWithLayout>
-        } 
-      />
-      
+        }
+      /> */}
+
       {/* Ruta por defecto */}
-      <Route 
-        path="*" 
+      <Route
+        path="*"
         element={
-          authenticated ? 
-            <Navigate to="/" replace /> : 
+          authenticated ?
+            <Navigate to="/" replace /> :
             <Navigate to="/login" replace />
-        } 
+        }
       />
     </Routes>
   );
